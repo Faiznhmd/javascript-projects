@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgoldenrod;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 500px;
+  min-height: 250px;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+span {
+  font-size: 80px;
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#btn {
+  background-color: darkgoldenrod;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
