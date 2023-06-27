@@ -1,0 +1,66 @@
+body {
+  background-color: #3d64e6;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+body .container {
+  background-color: #fff;
+  min-height: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+body .container .search-wrapper {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+}
+body .container .search-wrapper #country-inp {
+  border: none;
+  border-bottom: 2px solid #3d64e6;
+  outline: none;
+}
+body .container .search-wrapper #search-btn {
+  background-color: #3d64e6;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-family: 700;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+body .container #result .flag-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+body .container #result h2 {
+  font-weight: 600;
+  color: #222a43;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
+  margin-top: 30px;
+}
+body .container .wrapper .data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+}
+body .container .wrapper .data-wrapper h4 {
+  display: inline;
+  font-weight: 500;
+  color: #222a43;
+}
+body .container .wrapper .data-wrapper span {
+  color: #5d6274;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}/*# sourceMappingURL=style.css.map */
