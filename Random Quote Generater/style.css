@@ -32,6 +32,9 @@ body .wrapper .container #quote {
 body .wrapper .container #author {
   color: #fff;
 }
+body .wrapper .container #writer {
+  color: #fff;
+}
 body .wrapper .container #btn {
   background-color: white;
   color: orangered;
